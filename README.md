@@ -1,2 +1,31 @@
-# snaverse
-The sna package to rule them all ;-)
+# snaverse - The sna package to rule them all ;-)
+
+The `snaverse` is a suite of packages to learn and perform social network analysis (sna). 
+
+The suite is composed of three packages
+- `sna4utti`: containing tutorials to learn sna
+- `snafun`: containing functions to perform sna in an easy way
+- `SNA4DSData`: containing Dataset for learning purposes
+
+The `snaverse` is a companion for the mandatory first-year course Social Network Analysis for Data Science (SNA4DS) taught at JADS (Tilburg University + Eindhoven Technical University) within the master in Data Science, Business, and Entrepreneurship.
+
+In order to use the `snaverse`, follow these few steps: 
+
+- install the package remotes
+install.packages("remotes")
+
+- install the snaverse
+remotes::install_github("SNAnalyst/sna4tutti", dependencies = TRUE, force = TRUE)
+
+- now you have three functions to join the snaverse :)
+
+1) run `snaverse::rstudiofy(setup = "SNA4DS")` to set up the Rstudio IDE in the optimized way for the SNA4DS class
+
+2) run `snaverse::packagefy(install = "all")` to install all the packages needed to make the snaverse work.
+
+3) run `snaverse::snaversify(install = "snaverse")` to install all the packages in the snaverse suite
+
+After that, you are ready to go! 
+
+Enjoy the `snaverse`!
+

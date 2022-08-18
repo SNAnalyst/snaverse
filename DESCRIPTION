@@ -1,0 +1,28 @@
+Package: snaverse
+Type: Package
+Title: a universe of options to learn and and perform social network analysis
+Version: 0.0.1.9000
+Authors@R:
+	c(person(given = "Roger",
+					family = "Leenders",
+					role = c("aut", "cre"),
+					email = "SNA4DS@jads.nl"),
+	  person(given = "Claudia",
+					family = "Zucca",
+					role = c("aut"),
+					email = "SNA4DS@jads.nl"))
+Maintainer: Roger Leenders <r.t.a.j.leenders@jads.nl>
+Description: The package is a wrapper for three packages: `sna4tutti` containing tutorials to learn sna, `snafun` containing functions to perform sna, and `SNA4DSData` containing network datasets. 
+Depends: 
+	R (>= 4.2.1)
+Imports:
+	remotes, 
+	rstudio.prefs,
+	utils
+License: AGPL (>= 3) 
+Encoding: UTF-8
+LazyData: true
+URL: https://github.com/SNAnalyst/snaverse
+BugReports: https://github.com/SNAnalyst/sna4verse/issues
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
