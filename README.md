@@ -11,17 +11,15 @@ The `snaverse` is a companion for the mandatory first-year course Social Network
 
 In order to use the `snaverse`, follow these few steps: 
 
-- install the package remotes
-install.packages("remotes")
+1) install the package remotes: `install.packages("remotes")`
 
-- install the snaverse
-remotes::install_github("SNAnalyst/sna4tutti", dependencies = TRUE, force = TRUE)
+2) install the snaverse: `remotes::install_github("SNAnalyst/sna4tutti", dependencies = TRUE, force = TRUE)`
 
-- now you have three functions to join the snaverse :)
+Now you have three functions to join the snaverse :)
 
-1) run `snaverse::rstudiofy(setup = "SNA4DS")` to set up the Rstudio IDE in the optimized way for the SNA4DS class
+3) run `snaverse::rstudiofy(setup = "SNA4DS")` to set up the Rstudio IDE in the optimized way for the SNA4DS class
 
-2) run `snaverse::packagefy(install = "all")` to install all the packages needed to make the snaverse work.
+4) run `snaverse::packagefy(install = "all")` to install all the packages needed to make the snaverse work.
 
 3) run `snaverse::snaversify(install = "snaverse")` to install all the packages in the snaverse suite
 
