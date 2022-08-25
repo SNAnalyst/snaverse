@@ -44,6 +44,7 @@ packagefy <- function(install = "all") {
                               'fs',
                               'rlang',
                               'rprojroot',
+                              'texreg'
                               'usethis'))
 
     remotes::install_github("rstudio-education/gradethis",
