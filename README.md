@@ -13,16 +13,18 @@ In order to use the `snaverse`, follow these few steps:
 
 1) install the package remotes: `install.packages("remotes")`
 
-2) install the snaverse: `remotes::install_github("SNAnalyst/snaverse", dependencies = TRUE, force = TRUE)`
+2) install the package remotes: `install.packages("rstudio.prefs")`
+
+3) install the snaverse: `remotes::install_github("SNAnalyst/snaverse", dependencies = TRUE, force = TRUE)`
 
 
 Now you have three functions to join the snaverse :)
 
-3) run `snaverse::rstudiofy(setup = "SNA4DS")` to set up the Rstudio IDE in the optimized way for the SNA4DS class
+4) run `snaverse::rstudiofy(setup = "SNA4DS")` to set up the Rstudio IDE in the optimized way for the SNA4DS class
 
-4) run `snaverse::packagefy(install = "all")` to install all the packages needed to make the snaverse work.
+5) run `snaverse::packagefy(install = "all")` to install all the packages needed to make the snaverse work.
 
-3) run `snaverse::snaversify(install = "snaverse")` to install all the packages in the snaverse suite
+6) run `snaverse::snaversify(install = "snaverse")` to install all the packages in the snaverse suite
 
 After that, you are ready to go! 
 
