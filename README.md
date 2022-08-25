@@ -3,7 +3,7 @@
 The `snaverse` is a suite of packages to learn and perform social network analysis (sna). 
 
 The suite is composed of three packages
-- `sna4utti`: containing tutorials to learn sna
+- `sna4tutti`: containing tutorials to learn sna
 - `snafun`: containing functions to perform sna in an easy way
 - `SNA4DSData`: containing Dataset for learning purposes
 
