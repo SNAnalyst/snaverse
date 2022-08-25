@@ -15,7 +15,7 @@ In order to use the `snaverse`, follow these few steps:
 install.packages("remotes")
 
 - install the snaverse
-remotes::install_github("SNAnalyst/sna4tutti", dependencies = TRUE, force = TRUE)
+remotes::install_github("SNAnalyst/snaverse", dependencies = TRUE, force = TRUE)
 
 - now you have three functions to join the snaverse :)
 
