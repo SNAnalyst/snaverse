@@ -1,4 +1,4 @@
-# snaverse - The sna package to rule them all ;-)
+# snaverse - your step by step guide to the SNA universe :)
 
 The `snaverse` is a suite of packages to learn and perform social network analysis (sna). 
 
