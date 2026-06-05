@@ -55,7 +55,7 @@ packagefy <- function(install = "all") {
                             dependencies = TRUE,
                             force = TRUE)
 
-    remotes::install_github("matthewjdenny/GERGM",
+    remotes::install_github("czucca/GERGM",
                             dependencies = TRUE,
                             force = TRUE)
 
