@@ -11,7 +11,7 @@ Authors@R:
 					family = "Zucca",
 					role = c("aut"),
 					email = "SNA4DS@jads.nl"))
-Maintainer: Roger Leenders <r.t.a.j.leenders@jads.nl>
+Maintainer: Claudia Zucca <c.zucca@jads.nl>
 Description: The package is a wrapper for three packages: `sna4tutti` containing tutorials to learn sna, `snafun` containing functions to perform sna, and `SNA4DSData` containing network datasets. 
 Depends: 
 	R (>= 4.2.1)
